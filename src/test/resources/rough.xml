@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="rough">
+
+
+
+
+<test name="Test 1">
+    <classes>
+        <class name="com.maax.businessmanager.rough.testa" ></class>  
+    </classes>
+</test>
+
+
+
+
+</suite>
+

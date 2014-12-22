@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [commonTest]">
+  <listeners>
+    <listener class-name="com.maax.businessmanager.util.CustomListener"/>
+  </listeners>
+  <test name="Test 1(failed)" preserve-order="false">
+    <classes>
+      <class name="com.maax.businessmanager.common.sampleTest">
+        <methods>
+          <include name="basicnavigation" invocation-numbers="0 1"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

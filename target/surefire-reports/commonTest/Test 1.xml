@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="LMTN202461" name="com.maax.businessmanager.common.sampleTest" tests="2" failures="0" timestamp="22 Dec 2014 14:48:59 GMT" time="85.325" errors="0">
+  <testcase name="basicnavigation" time="80.156" classname="com.maax.businessmanager.common.sampleTest"/>
+  <testcase name="basicnavigation" time="84.123" classname="com.maax.businessmanager.common.sampleTest"/>
+</testsuite>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="commonTest" duration-ms="85325" started-at="2014-12-22T10:47:33Z" finished-at="2014-12-22T10:48:59Z">
+    <groups>
+    </groups>
+    <test name="Test 1" duration-ms="85325" started-at="2014-12-22T10:47:33Z" finished-at="2014-12-22T10:48:59Z">
+      <class name="com.maax.businessmanager.common.sampleTest">
+        <test-method status="PASS" signature="basicnavigation(java.util.Hashtable)" name="basicnavigation" duration-ms="80156" started-at="2014-12-22T10:47:35Z" finished-at="2014-12-22T10:48:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{qual period dp=Days, Browser=Firefox, Password=Welcome1, HC=Medavie Blue Cross, DepTermcalDP=Exact, Username=bcchase, Code=AUTO1B, Waitingperiod=0, Result=, Term.Age=60, TermDatecal=Exact, Runmode=Y, SubCate=Student, StartDatecal=Exact, DepTerm age=22, Status=Inforce, Category=Child, Qual Period=10, Description=Sample Test, BOB=Group, WaitingperiodDP=Days}]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="basicnavigation(java.util.Hashtable)" name="basicnavigation" duration-ms="84123" started-at="2014-12-22T10:47:35Z" finished-at="2014-12-22T10:48:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{qual period dp=Days, Browser=Chrome, Password=Welcome1, HC=Medavie Blue Cross, DepTermcalDP=Exact, Username=bcchase, Code=AUTO1B, Waitingperiod=0, Result=, Term.Age=60, TermDatecal=Exact, Runmode=Y, SubCate=Student, StartDatecal=Exact, DepTerm age=22, Status=Inforce, Category=Child, Qual Period=10, Description=Sample Test, BOB=Group, WaitingperiodDP=Days}]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+    </test>
+  </suite>
+  <suite name="My Project" duration-ms="0" started-at="2014-12-22T10:49:00Z" finished-at="2014-12-22T10:49:00Z">
+    <groups>
+    </groups>
+  </suite>
+</testng-results>

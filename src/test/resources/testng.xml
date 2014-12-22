@@ -1,0 +1,11 @@
+<suite name="My Project">
+<listeners>
+    <listener class-name="com.maax.businessmanager.util.CustomListener" />
+</listeners>
+  <suite-files>
+   <suite-file path="./common.xml"/>
+    <!--suite-file path="./rough.xml"/-->
+   
+   
+  </suite-files>
+</suite>

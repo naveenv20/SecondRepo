@@ -61,5 +61,6 @@
 	<classpathentry kind="var" path="M2_REPO/stax/stax-api/1.0.1/stax-api-1.0.1.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0/geronimo-stax-api_1.0_spec-1.0.jar"/>
 	<classpathentry kind="var" path="M2_REPO/dom4j/dom4j/1.1/dom4j-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Seli/JDBC/ojdbc6.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

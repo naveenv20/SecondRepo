@@ -1,6 +1,7 @@
 package com.maax.businessmanager.common;
 
 import java.util.Hashtable;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -20,8 +21,8 @@ public class sampleTest extends TestBase{
 
 		 WebDriver d1=null;
 		 //RemoteWebDriver d1=null;
-	//d1=init("basicnavigation", "Common",data,false);
-	d1=init("basicnavigation", "Common",data,true);
+	d1=init("basicnavigation", "Common",data,false);
+	//d1=init("basicnavigation", "Common",data,true);
 		checkrunmodes("Common", "basicnavigation", data.get("Runmode"));
 		APPLICATION_LOG.debug((data.get("Browser")));
 		
@@ -52,7 +53,15 @@ public class sampleTest extends TestBase{
 		select("hostedcarrierdp", data.get("HC"),d1);
 		dynamicwait(d1);
 		select("bookofbusinessdp", data.get("BOB"),d1);
-		type("agreementaddcodefield", data.get("Code"),d1);
+	//	type("agreementaddcodefield", data.get("Code"),d1);
+		
+		type("agreementaddcodefield",String.valueOf(Integer.parseInt(queryit())),d1);
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		type("agreementadddescription", data.get("Description"),d1);
 		select("beneligibilitystatusdp", data.get("Status"),d1);
 		type("waitingperiodtext", data.get("Waitingperiod"),d1);

@@ -8,7 +8,7 @@
     <classes>
       <class name="com.maax.businessmanager.common.sampleTest">
         <methods>
-          <include name="basicnavigation" invocation-numbers="0 1"/>
+          <include name="basicnavigation" invocation-numbers="1 0"/>
         </methods>
       </class>
     </classes>
